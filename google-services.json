@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1044387439856",
+    "firebase_url": "https://seguimiento-1fc3e.firebaseio.com",
+    "project_id": "seguimiento-1fc3e",
+    "storage_bucket": "seguimiento-1fc3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044387439856:android:24db75a6b16b6e1a",
+        "android_client_info": {
+          "package_name": "com.example.nico.seguimiento"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044387439856-on1ckmm259n7ctedn0ke04g0ff0nferu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL3amVOEjQuoZpw6pvoKukrJkgb8T98As"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
