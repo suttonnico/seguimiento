@@ -12,6 +12,6 @@ public class calendar extends AppCompatActivity {
     static final int DILOG_ID = 0;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.calencdar);
+        setContentView(R.layout.calendar);
     }
 }

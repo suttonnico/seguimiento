@@ -33,7 +33,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.846"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="60dp" />
 
     <Button
         android:id="@+id/button15"
@@ -50,7 +52,8 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/button16"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_gravity="end" />
 
     <Button
         android:id="@+id/button16"
@@ -61,13 +64,14 @@
         android:layout_marginStart="8dp"
         android:background="@drawable/calendario"
         android:onClick="go2calendar"
-        android:text="Próxima evaluación      \nMatemática: 7/11       "
+        android:text="Próxima evaluación      \nMatemática: Mie 8/11   "
         android:textAlignment="textEnd"
         android:textAllCaps="false"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/button17"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_gravity="end" />
 
     <Button
         android:id="@+id/button17"
@@ -85,7 +89,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_gravity="end" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -95,7 +100,8 @@
         android:layout_marginStart="32dp"
         app:layout_constraintBottom_toTopOf="@+id/button4"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/lucila" />
+        app:srcCompat="@drawable/lucila"
+        android:layout_marginLeft="32dp" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline2"
