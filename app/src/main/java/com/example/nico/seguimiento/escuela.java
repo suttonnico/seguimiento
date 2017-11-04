@@ -15,6 +15,6 @@ public class escuela extends AppCompatActivity {
         setContentView(R.layout.escuela);
     }
     public void go2tomar_lista(View view) {
-        startActivity(new Intent(escuela.this, presentes.class));
+        startActivity(new Intent(escuela.this, presencia.class));
     }
 }

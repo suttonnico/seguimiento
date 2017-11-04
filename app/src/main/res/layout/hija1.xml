@@ -75,7 +75,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:onClick="go2notificaciones"
-        android:text="Anuncios                  "
+        android:text="Anuncios                       "
         android:textAlignment="textEnd"
         android:textAllCaps="false"
         android:background="@drawable/presentes"
