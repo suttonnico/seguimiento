@@ -44,48 +44,17 @@
         android:id="@+id/button15"
         android:layout_width="307dp"
         android:layout_height="67dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="100dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
+        android:background="@drawable/notas"
         android:onClick="go2tomar_lista"
         android:text="Subir Notas                     "
         android:textAlignment="textEnd"
         android:textAllCaps="false"
-        android:background="@drawable/notas"
-        app:layout_constraintBottom_toTopOf="@+id/button16"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button16"
-        android:layout_width="307dp"
-        android:layout_height="67dp"
-        android:layout_marginBottom="24dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:onClick="go2tomar_lista"
-        android:text="Asistencias                     "
-        android:textAlignment="textEnd"
-        android:textAllCaps="false"
-        android:background="@drawable/presentes"
-        app:layout_constraintBottom_toTopOf="@+id/button17"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button17"
-        android:layout_width="307dp"
-        android:layout_height="67dp"
-        android:layout_marginBottom="40dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:onClick="go2tomar_lista"
-        android:text="Notas                       "
-        android:textAlignment="textEnd"
-        android:textAllCaps="false"
-        android:background="@drawable/notas"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
