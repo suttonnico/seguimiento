@@ -6,7 +6,7 @@ import android.view.View;
 import android.content.Intent;
 
 public class MainActivity extends AppCompatActivity {
-
+    // aca tenes un cambio hdp
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
