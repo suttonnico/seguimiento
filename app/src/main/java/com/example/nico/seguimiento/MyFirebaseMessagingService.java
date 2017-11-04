@@ -49,8 +49,8 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         Uri notificationSound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
 
         NotificationCompat.Builder notifiBuilder = new NotificationCompat.Builder(this)
-                .setSmallIcon(R.mipmap.ic_launcher)
-                .setContentTitle("Firebase Cloud Messaging")
+                .setSmallIcon(R.mipmap.app_icon)
+                .setContentTitle("Despues vemos")
                 .setContentText(body)
                 .setAutoCancel(true)
                 .setSound(notificationSound)

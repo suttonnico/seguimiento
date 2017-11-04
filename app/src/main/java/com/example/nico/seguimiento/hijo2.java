@@ -29,4 +29,10 @@ public class hijo2 extends AppCompatActivity {
         startActivity(new Intent(hijo2.this, calendar.class));
 
     }
+    public void go2notificaciones(View view) {
+
+        startActivity(new Intent(hijo2.this, notificaciones.class));
+
+    }
+
 }
