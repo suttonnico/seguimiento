@@ -10,8 +10,8 @@ import android.widget.ListView;
 
 public class presentes extends AppCompatActivity {
     ListView simpleList2;
-    String countryList2[] = {"Sab  04/11 -- PRESENTE", "Vie  03/11 -- PRESENTE", "Jue  02/11 -- TARDE", "Mie  01/11 -- PRESENTE", "Mar  31/10 -- PRESENTE", "Lun  30/10 -- AUSENTE","Dom  29/10 -- PRESENTE","Sab  28/10 -- TARDE","Vie  27/10 -- TARDE","Jue  26/10 -- PRESENTE","Mie  25/10 -- PRESENTE","Mar  24/10 -- PRESENTE","Lun  23/10 -- PRESENTE","Dom  22/10 -- PRESENTE","Sab  21/10 -- PRESENTE"};
-    int flags2[] = {R.drawable.checki, R.drawable.checki, R.drawable.crossi, R.drawable.checki, R.drawable.checki, R.drawable.real_crossi, R.drawable.checki, R.drawable.crossi, R.drawable.crossi, R.drawable.checki, R.drawable.checki, R.drawable.checki, R.drawable.crossi, R.drawable.checki, R.drawable.checki};
+    String countryList2[] = {" Vie 03/11 - Presente", " Jue 02/11 - Tarde", " Mie 01/11 - Presente", " Mar 31/10 - Presente", " Lun 30/10 - Ausente", " Vie 27/10 - Tarde"," Jue 26/10 - Presente"," Mie 25/10 - Presente"," Mar 24/10 - Presente"," Lun 23/10 - Presente"," Vie 20/10 - Presente", " Jue 19/10 - Tarde", " Mie 18/10 - Presente", };
+    int flags2[] = {R.drawable.checki, R.drawable.crossi, R.drawable.checki, R.drawable.checki, R.drawable.real_crossi, R.drawable.crossi, R.drawable.checki, R.drawable.checki, R.drawable.checki, R.drawable.checki, R.drawable.checki, R.drawable.crossi, R.drawable.checki};
 
 
     protected void onCreate(Bundle savedInstanceState) {
