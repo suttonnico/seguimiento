@@ -40,6 +40,9 @@
         <activity android:name=".notificaciones">
 
         </activity>
+        <activity android:name=".presencia">
+
+        </activity>
         <service android:name=".MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT"/>
