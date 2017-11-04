@@ -21,5 +21,11 @@ public class secondActivity extends AppCompatActivity {
         startActivity(new Intent(secondActivity.this, hijo2.class));
 
     }
+    public void go2hijo1(View view) {
+
+        startActivity(new Intent(secondActivity.this, hijo1.class));
+
+    }
+
 
 }
