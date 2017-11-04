@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void button_intento_login(View view) {
         EditText user = (EditText) findViewById(R.id.editText);
-        if(user.getText().toString().equals("padre"))
+        if(user.getText().toString().equals("juanpablo70"))
             startActivity(new Intent(MainActivity.this, secondActivity.class));
         else
             startActivity(new Intent(MainActivity.this, escuela.class));
