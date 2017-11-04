@@ -41,7 +41,6 @@ public class hijo1 extends AppCompatActivity {
     }
     public void go2notificaciones(View view) {
 
-        startActivity(new Intent(com.example.nico.seguimiento.hijo1.this, notificaciones.class));
 
     }
 
