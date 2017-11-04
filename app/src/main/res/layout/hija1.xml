@@ -44,7 +44,7 @@
         android:layout_marginStart="8dp"
         android:background="@drawable/notas"
         android:onClick="go2notas"
-        android:text="Ultima nota:                \nQuimica 9                   "
+        android:text="Ultima nota:                 \nQuimica 9                   "
         android:textAlignment="textEnd"
         android:textAllCaps="false"
         app:layout_constraintBottom_toTopOf="@+id/button16"
