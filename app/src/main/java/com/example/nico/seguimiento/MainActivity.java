@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.content.Intent;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,8 +15,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void button_intento_login(View view) {
-
-        startActivity(new Intent(MainActivity.this, secondActivity.class));
-
+        EditText user = (EditText) findViewById(R.id.editText);
+        if(user.getText().toString().equals("padre"))
+            startActivity(new Intent(MainActivity.this, secondActivity.class));
+        else
+            startActivity(new Intent(MainActivity.this, escuela.class));
     }
 }

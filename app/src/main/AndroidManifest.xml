@@ -28,6 +28,9 @@
         <activity android:name=".presentes">
 
         </activity>
+        <activity android:name=".escuela">
+
+        </activity>
         <activity android:name=".notas">
 
         </activity>

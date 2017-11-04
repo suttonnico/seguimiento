@@ -10,7 +10,7 @@ import android.widget.ListView;
 
 public class presentes extends AppCompatActivity {
     ListView simpleList2;
-    String countryList2[] = {"  04/11/2017 -- PRESENTE", "  03/11/2017 -- PRESENTE", "  02/11/2017 -- TARDE", "  01/11/2017 -- PRESENTE", "  31/10/2017 -- PRESENTE", "  30/10/2017 -- AUSENTE","  29/10/2017 -- PRESENTE","  28/10/2017 -- TARDE","  27/10/2017 -- TARDE","  26/10/2017 -- PRESENTE","  25/10/2017 -- PRESENTE","  24/10/2017 -- PRESENTE","  23/10/2017 -- PRESENTE","  22/10/2017 -- PRESENTE","  21/10/2017 -- PRESENTE"};
+    String countryList2[] = {"Sab  04/11 -- PRESENTE", "Vie  03/11 -- PRESENTE", "Jue  02/11 -- TARDE", "Mie  01/11 -- PRESENTE", "Mar  31/10 -- PRESENTE", "Lun  30/10 -- AUSENTE","Dom  29/10 -- PRESENTE","Sab  28/10 -- TARDE","Vie  27/10 -- TARDE","Jue  26/10 -- PRESENTE","Mie  25/10 -- PRESENTE","Mar  24/10 -- PRESENTE","Lun  23/10 -- PRESENTE","Dom  22/10 -- PRESENTE","Sab  21/10 -- PRESENTE"};
     int flags2[] = {R.drawable.checki, R.drawable.checki, R.drawable.crossi, R.drawable.checki, R.drawable.checki, R.drawable.real_crossi, R.drawable.checki, R.drawable.crossi, R.drawable.crossi, R.drawable.checki, R.drawable.checki, R.drawable.checki, R.drawable.crossi, R.drawable.checki, R.drawable.checki};
 
 

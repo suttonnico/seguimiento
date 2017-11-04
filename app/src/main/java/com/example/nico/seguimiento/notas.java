@@ -11,7 +11,7 @@ import android.widget.ListView;
 public class notas extends AppCompatActivity {
 
     ListView simpleList;
-    String countryList[] = {"  04/11/2017 -- Matematica: 7", "  02/11/2017 -- Fisica: 8", "  30/10/2017 -- Quimica: 5", "  28/10/2017 -- Historia: 10", "  20/10/2017 -- Informatica: 10", "  17/10/2017 -- Geografia: 3","  15/10/2017 -- Musica: 9","  12/10/2017 -- Etica: 9","  04/10/2017 -- Biologia: 9","  29/09/2017 -- Matematica: 9","  28/09/2017 -- Fisica: 9","  24/09/2017 -- Literatura: 6","  21/09/2017 -- Formacion Civica: 1","  16/09/2017 -- Gimnasia: 10","  25/09/2017 -- Artes Plasticas: 10"};
+    String countryList[] = {" Vie 03/11 -- Matematica: 7", " Jue 02/11 -- Fisica: 8", " Lun 30/10 -- Quimica: 5", "Vie  27/10 -- Historia: 10", "Vie  20/10 -- Informatica: 10", "Mar  17/10 -- Geografia: 3","Lun  16/10 -- Musica: 9","Jue  12/10 -- Etica: 9","Mie  04/10 -- Biologia: 9","Vie  29/09 -- Matematica: 9","Jue  28/09 -- Fisica: 9","Lun  25/09 -- Literatura: 6","Jue  21/09 -- Formacion Civica: 1"," Vie 15/09 -- Gimnasia: 10","Jue  14/09 -- Artes Plasticas: 10"};
     int flags[] = {R.drawable.checki, R.drawable.checki, R.drawable.crossi, R.drawable.checki, R.drawable.checki, R.drawable.crossi, R.drawable.checki, R.drawable.checki, R.drawable.checki, R.drawable.checki, R.drawable.checki, R.drawable.checki, R.drawable.crossi, R.drawable.checki, R.drawable.checki};
 
 
